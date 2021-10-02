@@ -24,7 +24,7 @@ export const Div2 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
     margin-top: -5rem;
-    margin-left: -10rem;
+    margin-left: -7rem;
     padding: 0;
     justify-content: left;
   }
@@ -54,6 +54,8 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size: 12px;
+    align-items: center;
   }
 `;
 
@@ -134,5 +136,6 @@ export const Div4 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
     height: 2rem;
     margin-top: 7rem;
+    margin-left: 20px;
   }
 `;
